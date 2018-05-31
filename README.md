@@ -1,3 +1,3 @@
 "# react_test" 
-"# react_form_example" 
-"# Simple code of React Form used "
+"# react_json_example" 
+"# Simple code of React Json import and import a Component "
