@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import mydata from './test.json';
+import MyComponent from './MyComponent.js';
 
 class App extends Component { 
   constructor(props) {
@@ -17,16 +18,19 @@ class App extends Component {
   }
 
   render() { 
-
+  
   return (
   <div className="App">
       <header className="App-header">
       <h1>Welcome to the movie list <br/> which comes from a JSON file </h1>
       </header>
-      <button onClick={this.handleFilm}> Show List </button>
+      <MyComponent/>
+      <br/>
+      <button onClick={this.handleFilm}> PRESS ME! </button>
       <ul>
       {this.state.filmList}
       </ul>
+     
   </div>
     );
   }
